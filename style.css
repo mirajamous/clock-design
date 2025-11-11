@@ -1,0 +1,207 @@
+body{
+    background:#ffcc66;
+  }
+  
+  .box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 660px;
+    height: 480px;
+    background: none;
+   
+  }
+  .clock{
+    position: absolute;
+    width: 50%;
+    height: 67%;
+    top: 16.5%;
+    left: 25%;
+    background:#66a3ff;
+    border-radius: 50%;
+  }
+  .clockBody{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #66a3ff;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  .ears{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+     top: 5%;
+     background: white;
+    z-index: 1;
+    box-shadow: 0px 0px 8px #888888;
+  }
+  .ear-left{
+    left: 5%;  
+    transform: rotate(-45deg);
+  }
+  .ear-right{
+    right: 5%;   
+    transform: rotate(45deg);
+  }
+  
+  .semicircle{
+    position: absolute;
+    width: 260%;
+    height: 115%;
+    bottom:60%;
+    left:-80%;
+    z-index: 2;
+    background-color: #66a3ff;
+    border-radius: 50px 50px 0 0; 
+  }
+  
+  .foot{
+    position: absolute;
+    width: 110%;
+    height: 85%;
+    left: -5%;
+    top:45%;
+    background: white;
+    z-index: 1;
+    clip-path: ellipse(4% 49% at 61% 50%); 
+  
+  }
+  .fLeft{
+     transform: rotate(-45deg); 
+  }
+  .fRight {
+    transform: rotate(45deg) scaleX(-1);
+  }
+  
+  .bigContainer{
+     position: absolute;
+    width:80%;
+    height:80%;
+    left:10%;
+    top:10%;
+    background-color:black;
+    border-radius:50% ;
+  }
+  .bigBody{
+    position: absolute;
+    width:95%;
+    height:95%;
+    left:2.5%;
+    top:2.5%;
+    background-color:#004d99;
+    border-radius:50% ;
+  }
+  
+  .smallerBody{
+    position: absolute;
+    width:95%;
+    height:95%;
+    left:2.5%;
+    top:2.5%;
+    background-color:white;
+    border-radius:50% ;
+  }
+  
+  .numberDiv{
+    position: absolute;
+    width:12%;
+    height:12%;
+    margin:5px;
+    background-color:#ff9900;
+    border-radius:50%;
+    box-shadow: 0px 6px 8px #888888;
+  }
+  .left{
+    top:44%;
+  }
+  .right{
+    top:44%;
+    right:0;
+  }
+  
+  .bottom{
+   left:44%;
+    bottom:0;
+  }
+  .top{
+   left:44%;
+    top:0;
+  }
+  .clockwiseCircle{
+    position: absolute;
+    width:15%;
+    height:15%;
+    border-radius:50%;
+    background-color:white;
+     border: 3px solid #ff9900;
+     top:42.5%;
+    left:42.5%;
+     z-index:2;
+     box-shadow: 0px 0px 8px #888888;
+  
+  }
+  
+  .line {
+    position: absolute;
+    width: 30%;
+    height: 1.2%; 
+    background-color: #ff9900; 
+    box-shadow: 0px 0px 8px #888888;
+    top: 49.25%; 
+    left: 50%; 
+    transform-origin:left;/*origin*/
+    transform: rotate(-215deg);
+      z-index:1;
+  }
+  
+  .smallerClockwise{
+     position: absolute;
+    width: 70%;
+    height: 40%;
+     left:25%;
+    top:47%;
+    background: #ff9900;
+    z-index: 1;
+   transform: rotate(-60deg);
+    clip-path: ellipse(4% 49% at 61% 50%); 
+    box-shadow: 0px 0px 8px #888888;
+  }
+  
+  .largerClockwise{
+     position: absolute;
+    width: 70%;
+    height: 45%;
+     top:20%;
+    background: #ff9900;
+    z-index: 1;
+   transform: rotate(-30deg);
+    clip-path: ellipse(4% 49% at 61% 50%); 
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
